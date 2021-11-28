@@ -1,0 +1,23 @@
+{
+  "name": "promise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c",
+    "serve": "cross-env ENV=development rollup -c -w",
+    "test": "promises-aplus-tests src/index"
+  },
+  "author": "flyer",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "core-js": "3",
+    "cross-env": "^7.0.3",
+    "promises-aplus-tests": "^2.1.2",
+    "rollup": "^2.60.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
